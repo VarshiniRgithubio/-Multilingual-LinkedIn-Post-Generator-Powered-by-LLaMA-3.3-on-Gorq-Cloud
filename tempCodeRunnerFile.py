@@ -1,0 +1,1 @@
+from post_generator import generate_post
