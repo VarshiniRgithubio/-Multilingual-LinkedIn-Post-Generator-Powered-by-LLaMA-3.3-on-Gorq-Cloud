@@ -65,52 +65,32 @@ As a student passionate about AI and real-world applications of large language m
 ```bash
 git clone https://github.com/your-username/multilingual-linkedin-post-generator.git
 cd multilingual-linkedin-post-generator
-
+```
+ ## Project Structure
 multilingual-linkedin-post-generator/
 │
-├── app.py # Streamlit interface
-├── prompts.py # Prompt generation logic
+├── app.py               # Streamlit interface
+├── prompts.py           # Prompt generation logic
 ├── data/
-│ └── sample_posts.json # Sample LinkedIn posts (optional)
-├── .env.example # Environment variables template
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
+│   └── sample_posts.json  # Sample LinkedIn posts (optional)
+├── .env.example         # Environment variables template
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
 ---
 
-## 🔐 Environment Variables
-
-Create a `.env` file in the root directory:
-
+## Environment Variables
 GORQ_API_KEY=your_api_key_here
 GORQ_ENDPOINT=https://api.gorq.cloud/llama-3.3/generate
-
-yaml
-Copy
-Edit
+---
+#Install Dependencies
+pip install -r requirements.txt
 
 ---
-
-## 📦 Dependencies
-
-Install required packages:
-
-```bash
-pip install -r requirements.txt
-Contents of requirements.txt:
-
-nginx
-Copy
-Edit
-streamlit
-requests
-python-dotenv
-▶️ Run the Streamlit App
-bash
-Copy
-Edit
+# Run the Streamlit App
 streamlit run app.py
+
+
+
+
+
+
